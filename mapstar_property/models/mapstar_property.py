@@ -12,7 +12,7 @@ class MapstarProperty(models.Model):
     street = fields.Char(string='Address')
     city = fields.Char(string='City')
     category_id = fields.Many2one('mapstar.property.category', string='Property Category')
-    owner_id = fields.Many2one('res.partner', string='Owner', required=True)
+    owner_id = fields.Many2one('res.partner', string='Owner', required=True, domain=[('res_partner_type', '=', 'owner')])
     owner_phone = fields.Char(string='Owner Phone', related='owner_id.phone')
     start_date = fields.Date(string='Start Date', required=True)
     max_guest = fields.Integer(string='Max Guest')
