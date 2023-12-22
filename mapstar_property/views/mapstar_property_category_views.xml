@@ -1,0 +1,43 @@
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="mapstar_property_category_list">
+            <field name="name">mapstar_property_category_list</field>
+            <field name="model">mapstar.property.category</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="mapstar_property_category_form">
+            <field name="name">mapstar_property_category_form</field>
+            <field name="model">mapstar.property.category</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="description"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="mapstar_property_category_menu_action">
+            <field name="name">Mapstar Property Category</field>
+            <field name="res_model">mapstar.property.category</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem name="Mapstar Category" id="mapstar_category_menu" parent="mapstar_property.mapstar_data_menu"
+                  sequence="2"/>
+        <menuitem name="Mapstar Property Category" id="mapstar_property_category_menu"
+                  parent="mapstar_property.mapstar_category_menu"
+                  sequence="1"
+                  action="mapstar_property_category_menu_action"/>
+    </data>
+</odoo>

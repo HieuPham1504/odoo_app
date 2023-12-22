@@ -1,0 +1,1133 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mapstar_property
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-21 07:17+0000\n"
+"PO-Revision-Date: 2023-12-21 07:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: mapstar_property
+#: model_terms:ir.ui.view,arch_db:mapstar_property.mapstar_property_construction_form
+msgid "Add a Image"
+msgstr "Thêm hình ảnh"
+
+#. module: mapstar_property
+#: model_terms:ir.ui.view,arch_db:mapstar_property.survey_request_form
+msgid "Add a Media"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__street
+msgid "Address"
+msgstr "Địa chỉ"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_notification__notification_type__all
+msgid "All user"
+msgstr "Toàn bộ người dùng"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_payment__arise_date
+msgid "Arise Date"
+msgstr "Ngày phát sinh giao dịch"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_property__furniture__basic
+msgid "Basic"
+msgstr "Cơ bản"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__state
+msgid "Booking State"
+msgstr "Trạng thái"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_booking__state__cancel
+msgid "Cancel Booking"
+msgstr "Hủy bỏ"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_category__description
+msgid "Category Description"
+msgstr "Mô tả"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_category__name
+msgid "Category Name"
+msgstr "Tên"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__check_in
+msgid "Check In"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__check_out
+msgid "Check Out"
+msgstr ""
+
+#. module: mapstar_property
+#: model_terms:ir.ui.view,arch_db:mapstar_property.mapstar_booking_form
+msgid "Checkin"
+msgstr ""
+
+#. module: mapstar_property
+#: model_terms:ir.ui.view,arch_db:mapstar_property.mapstar_booking_form
+msgid "Checkout"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__city
+msgid "City"
+msgstr "Thành phố"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_common_question__answer
+msgid "Common Answer"
+msgstr "Trả lời"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_common_question__question
+msgid "Common Question"
+msgstr "Câu hỏi"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_property_construction__state__complete
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_property_construction_line__state__complete
+msgid "Complete Construction"
+msgstr "Đã hoàn thành"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_property_construction__state__constructing
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_property_construction_line__state__constructing
+msgid "Constructing Construction"
+msgstr "Đang thi công"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_property__state__constructing
+msgid "Constructing Property"
+msgstr "Đang thi công"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__description
+msgid "Construction Description"
+msgstr "Mô tả"
+
+#. module: mapstar_property
+#: model_terms:ir.ui.view,arch_db:mapstar_property.mapstar_property_construction_form
+msgid "Construction Details"
+msgstr "Chi tiết"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_images__date
+msgid "Construction Image Date"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_images__name
+msgid "Construction Image Name"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_images__title
+msgid "Construction Image Title"
+msgstr ""
+
+#. module: mapstar_property
+#: model_terms:ir.ui.view,arch_db:mapstar_property.mapstar_property_construction_form
+msgid "Construction Images"
+msgstr "Hình ảnh"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction_line__done_date
+msgid "Construction Line Done Date"
+msgstr "Ngày hoàn thành"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction_line__name
+msgid "Construction Line Name"
+msgstr "Tên"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction_line__rate
+msgid "Construction Line Rate"
+msgstr "Mô tả"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__construction_line_ids
+msgid "Construction Lines"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__name
+msgid "Construction Name"
+msgstr "Tên"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_payment__payment_date
+msgid "Construction Payment Date"
+msgstr "Ngày hoàn thành"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_payment__description
+msgid "Construction Payment Description"
+msgstr "Mô tả"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_payment__name
+msgid "Construction Payment Name"
+msgstr "Tên"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_payment__state
+msgid "Construction Payment State"
+msgstr "Trạng thái"
+
+#. module: mapstar_property
+#: model_terms:ir.ui.view,arch_db:mapstar_property.mapstar_property_construction_form
+msgid "Construction Payments"
+msgstr "Thanh toán"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__state
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction_line__state
+msgid "Construction State"
+msgstr "Trạng thái"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_payment__total_amount
+msgid "Construction Total Amount"
+msgstr "Số tiền"
+
+#. module: mapstar_property
+#: model:ir.model,name:mapstar_property.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_contract__contract_file
+msgid "Contract File"
+msgstr "File hợp đồng"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_contract__name
+msgid "Contract Name"
+msgstr "Tên hợp đồng"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__create_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_common_question__create_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_contract__create_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_destination__create_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_division__create_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_feedback__create_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_housekeeper__create_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_notification__create_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_payment__create_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__create_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_category__create_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__create_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction_line__create_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_rating__create_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_images__create_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_payment__create_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_survey_request__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__create_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_common_question__create_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_contract__create_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_destination__create_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_division__create_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_feedback__create_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_housekeeper__create_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_notification__create_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_payment__create_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__create_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_category__create_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__create_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction_line__create_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_rating__create_date
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_images__create_date
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_payment__create_date
+#: model:ir.model.fields,field_description:mapstar_property.field_survey_request__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__res_partner__res_partner_type__customer
+msgid "Customer"
+msgstr "Khách hàng"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_booking__state__book
+msgid "Customer Booking"
+msgstr "Khách đặt"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__customer_email
+msgid "Customer Email"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__customer_name
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_rating__customer_name
+msgid "Customer Name"
+msgstr "Khách hàng"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__customer_phone
+msgid "Customer Phone"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__customer_request
+msgid "Customer Request"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_notification__date_schedule
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__date_schedule
+msgid "Date Schedule"
+msgstr "Lịch hẹn"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_res_users__birthday
+msgid "Date of Birth"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_destination__city
+msgid "Destination City"
+msgstr "Thành phố"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_destination__description
+msgid "Destination Description"
+msgstr "Mô tả"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_destination__name
+msgid "Destination Name"
+msgstr "Tên"
+
+#. module: mapstar_property
+#: model_terms:ir.ui.view,arch_db:mapstar_property.mapstar_notification_form
+msgid "Details"
+msgstr "Chi tiết"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__display_name
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_common_question__display_name
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_contract__display_name
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_destination__display_name
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_division__display_name
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_feedback__display_name
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_housekeeper__display_name
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_notification__display_name
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_payment__display_name
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__display_name
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_category__display_name
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__display_name
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction_line__display_name
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_rating__display_name
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_images__display_name
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_payment__display_name
+#: model:ir.model.fields,field_description:mapstar_property.field_survey_request__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_division__description
+msgid "Division Description"
+msgstr "Mô tả"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_division__name
+msgid "Division Name"
+msgstr "Tên"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_booking__state__done
+msgid "Done Booking"
+msgstr "Hoàn thành"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__done_date
+msgid "Done Date"
+msgstr "Ngày hoàn thành"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__survey_request__state__done
+msgid "Done Survey"
+msgstr "Hoàn thành"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_property_construction__state__draft
+msgid "Draft Construction"
+msgstr "Nháp"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_notification__state__draft
+msgid "Draft Notification"
+msgstr "Nháp"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_property__state__draft
+msgid "Draft Property"
+msgstr "Nháp"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_contract__state__expired
+msgid "Expired Contract"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_property__state__exploited
+msgid "Exploited Property"
+msgstr "Đang khai thác"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_feedback__title
+msgid "Feedback Title"
+msgstr "Title"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_feedback__description
+msgid "Feedback description"
+msgstr "Chi tiết"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__res_partner__gender__female
+msgid "Female"
+msgstr "Nữ"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_property__furniture__full
+msgid "Full"
+msgstr "Đầy đủ"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__furniture
+msgid "Furniture"
+msgstr "Nội thất"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_res_users__gender
+msgid "Gender"
+msgstr ""
+
+#. module: mapstar_property
+#: model_terms:ir.ui.view,arch_db:mapstar_property.mapstar_notification_form
+msgid "Group List"
+msgstr "Danh sách nhóm"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_notification__notification_type__group
+msgid "Group User"
+msgstr "Nhóm thông báo"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_property__furniture__high_class
+msgid "High Class"
+msgstr "Cao cấp"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__house_service_manager_id
+msgid "House Service Manager"
+msgstr "Quản lý dịch vụ"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__housekeeper_id
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_housekeeper__type__housekeeper
+msgid "HouseKeeper"
+msgstr "Quản gia"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_housekeeper__code
+msgid "HouseKeeper Code"
+msgstr "Mã"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_housekeeper__name
+msgid "HouseKeeper Name"
+msgstr "Tên"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_housekeeper__phone
+msgid "HouseKeeper Phone"
+msgstr "Liên hệ"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_housekeeper__type
+msgid "HouseKeeper Type"
+msgstr "Vị trí"
+
+#. module: mapstar_property
+#: model_terms:ir.ui.view,arch_db:mapstar_property.form
+msgid "Housekeeper Information"
+msgstr "Danh sách quản gia"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__id
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_common_question__id
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_contract__id
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_destination__id
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_division__id
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_feedback__id
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_housekeeper__id
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_notification__id
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_payment__id
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__id
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_category__id
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__id
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction_line__id
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_rating__id
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_images__id
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_payment__id
+#: model:ir.model.fields,field_description:mapstar_property.field_survey_request__id
+msgid "ID"
+msgstr ""
+
+#. module: mapstar_property
+#: model_terms:ir.ui.view,arch_db:mapstar_property.survey_request_form
+msgid "Images"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_payment__payment_type__inbound
+msgid "Inbound Payment"
+msgstr "Doanh thu"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_notification__icon__info
+msgid "Info Notification"
+msgstr "Thông tin"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_payment__is_net
+msgid "Is Net"
+msgstr "Doanh thu thuần"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__is_sample
+msgid "Is Sample"
+msgstr "Căn mẫu"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__write_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_common_question__write_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_contract__write_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_destination__write_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_division__write_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_feedback__write_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_housekeeper__write_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_notification__write_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_payment__write_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__write_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_category__write_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__write_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction_line__write_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_rating__write_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_images__write_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_payment__write_uid
+#: model:ir.model.fields,field_description:mapstar_property.field_survey_request__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__write_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_common_question__write_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_contract__write_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_destination__write_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_division__write_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_feedback__write_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_housekeeper__write_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_notification__write_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_payment__write_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__write_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_category__write_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__write_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction_line__write_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_rating__write_date
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_images__write_date
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_payment__write_date
+#: model:ir.model.fields,field_description:mapstar_property.field_survey_request__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_booking__state__lock
+msgid "Lock Booking"
+msgstr "Đang khóa"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__res_partner__gender__male
+msgid "Male"
+msgstr "Nam"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_housekeeper__type__service_manager
+msgid "Manager"
+msgstr "Quản lý"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_notification__notification_type__manual
+msgid "Manual Notification"
+msgstr "Thủ công"
+
+#. module: mapstar_property
+#: model:ir.ui.menu,name:mapstar_property.mapstar_main_menu
+msgid "Mapstar"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.actions.act_window,name:mapstar_property.mapstar_booking_menu_action
+#: model:ir.model,name:mapstar_property.model_mapstar_booking
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_payment__booking_id
+#: model:ir.ui.menu,name:mapstar_property.mapstar_booking_menu
+msgid "Mapstar Booking"
+msgstr "Đặt phòng"
+
+#. module: mapstar_property
+#: model:ir.ui.menu,name:mapstar_property.mapstar_category_menu
+msgid "Mapstar Category"
+msgstr "Nhóm"
+
+#. module: mapstar_property
+#: model:ir.actions.act_window,name:mapstar_property.mapstar_common_question_menu_action
+#: model:ir.model,name:mapstar_property.model_mapstar_common_question
+#: model:ir.ui.menu,name:mapstar_property.mapstar_common_question_menu
+msgid "Mapstar Common Question"
+msgstr "Câu hỏi thường gặp"
+
+#. module: mapstar_property
+#: model:ir.model,name:mapstar_property.model_mapstar_contract
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__property_contract_ids
+msgid "Mapstar Contract"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.ui.menu,name:mapstar_property.mapstar_data_menu
+msgid "Mapstar Data"
+msgstr "Dữ liệu"
+
+#. module: mapstar_property
+#: model:ir.actions.act_window,name:mapstar_property.mapstar_destination_menu_action
+#: model:ir.model,name:mapstar_property.model_mapstar_destination
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_division__destination_id
+#: model:ir.ui.menu,name:mapstar_property.mapstar_destination_menu
+#: model:ir.ui.menu,name:mapstar_property.mapstar_destinations_menu
+msgid "Mapstar Destination"
+msgstr "Dự án"
+
+#. module: mapstar_property
+#: model:ir.actions.act_window,name:mapstar_property.mapstar_division_menu_action
+#: model:ir.model,name:mapstar_property.model_mapstar_division
+#: model:ir.ui.menu,name:mapstar_property.mapstar_division_menu
+msgid "Mapstar Division"
+msgstr "Phân lô"
+
+#. module: mapstar_property
+#: model:ir.actions.act_window,name:mapstar_property.mapstar_feedback_menu_action
+#: model:ir.model,name:mapstar_property.model_mapstar_feedback
+#: model:ir.ui.menu,name:mapstar_property.mapstar_feedback_menu
+msgid "Mapstar Feedback"
+msgstr "Phản hồi khách hàng"
+
+#. module: mapstar_property
+#: model:ir.actions.act_window,name:mapstar_property.mapstar_housekeeper_menu_action
+#: model:ir.model,name:mapstar_property.model_mapstar_housekeeper
+#: model:ir.ui.menu,name:mapstar_property.mapstar_housekeeper_menu
+msgid "Mapstar HouseKeeper"
+msgstr "Quản gia"
+
+#. module: mapstar_property
+#: model:ir.ui.menu,name:mapstar_property.mapstar_management_menu
+msgid "Mapstar Management"
+msgstr "Quản lý"
+
+#. module: mapstar_property
+#: model:ir.actions.act_window,name:mapstar_property.mapstar_net_payment_menu_action
+#: model:ir.ui.menu,name:mapstar_property.mapstar_net_payment_menu
+msgid "Mapstar Net Payment"
+msgstr "Doanh thu thuần"
+
+#. module: mapstar_property
+#: model:ir.actions.act_window,name:mapstar_property.mapstar_notification_menu_action
+#: model:ir.model,name:mapstar_property.model_mapstar_notification
+#: model:ir.ui.menu,name:mapstar_property.mapstar_notification_menu
+msgid "Mapstar Notification"
+msgstr "Thông báo"
+
+#. module: mapstar_property
+#: model:ir.ui.menu,name:mapstar_property.mapstar_partner_menu
+#: model:ir.ui.menu,name:mapstar_property.mapstar_partners_menu
+msgid "Mapstar Partner"
+msgstr "Khách hàng"
+
+#. module: mapstar_property
+#: model:ir.actions.act_window,name:mapstar_property.mapstar_payment_menu_action
+#: model:ir.model,name:mapstar_property.model_mapstar_payment
+#: model:ir.ui.menu,name:mapstar_property.mapstar_payment_menu
+msgid "Mapstar Payment"
+msgstr "Thu chi"
+
+#. module: mapstar_property
+#: model:ir.ui.menu,name:mapstar_property.mapstar_payments_menu
+msgid "Mapstar Payments"
+msgstr "Thu chi"
+
+#. module: mapstar_property
+#: model:ir.actions.act_window,name:mapstar_property.mapstar_property_menu_action
+#: model:ir.model,name:mapstar_property.model_mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_contract__property_id
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_feedback__property_id
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_payment__property_id
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__property_id
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_rating__property_id
+#: model:ir.ui.menu,name:mapstar_property.mapstar_property_menu
+msgid "Mapstar Property"
+msgstr "Bất động sản"
+
+#. module: mapstar_property
+#: model:ir.actions.act_window,name:mapstar_property.mapstar_property_category_menu_action
+#: model:ir.model,name:mapstar_property.model_mapstar_property_category
+#: model:ir.ui.menu,name:mapstar_property.mapstar_property_category_menu
+msgid "Mapstar Property Category"
+msgstr "Danh mục bất động sản"
+
+#. module: mapstar_property
+#: model:ir.actions.act_window,name:mapstar_property.mapstar_property_construction_menu_action
+#: model:ir.model,name:mapstar_property.model_mapstar_property_construction
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction_line__construction_id
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_images__construction_id
+#: model:ir.ui.menu,name:mapstar_property.mapstar_property_construction_menu
+msgid "Mapstar Property Construction"
+msgstr "Thi công"
+
+#. module: mapstar_property
+#: model:ir.model,name:mapstar_property.model_mapstar_property_construction_line
+msgid "Mapstar Property Construction Line"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.actions.act_window,name:mapstar_property.mapstar_rating_menu_action
+#: model:ir.model,name:mapstar_property.model_mapstar_rating
+#: model:ir.ui.menu,name:mapstar_property.mapstar_rating_menu
+msgid "Mapstar Rating"
+msgstr "Đánh giá"
+
+#. module: mapstar_property
+#: model:ir.actions.act_window,name:mapstar_property.mapstar_partner_menu_action
+msgid "Mapstar partner"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__max_guest
+#: model:ir.model.fields,field_description:mapstar_property.field_survey_request__max_guest
+msgid "Max Guest"
+msgstr "Số khách tối đa"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__name
+msgid "Name"
+msgstr ""
+
+#. module: mapstar_property
+#: model_terms:ir.ui.view,arch_db:mapstar_property.mapstar_payment_form
+msgid "Ngày hiệu lực"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__booking_free
+msgid "Night Booking Free"
+msgstr "Đêm nghỉ miễn phí"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_notification__content
+msgid "Notification Content"
+msgstr "Nội dung"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_notification__group_ids
+msgid "Notification Groups"
+msgstr "Nhóm nhận thông báo"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_notification__icon
+msgid "Notification Icon"
+msgstr "Icon"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_notification__link
+msgid "Notification Link"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_notification__name
+msgid "Notification Name"
+msgstr "Tên"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_notification__state
+msgid "Notification State"
+msgstr "Trạng thái"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_notification__title
+msgid "Notification Title"
+msgstr "Tiêu đề"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_notification__notification_type
+msgid "Notification Type"
+msgstr "Đối tượng"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_notification__user_ids
+msgid "Notification Users"
+msgstr "Người dùng"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__no_adult
+msgid "Number of Adult"
+msgstr "Số lượng khách"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__no_bathroom
+msgid "Number of Bathroom"
+msgstr "Nhà vệ sinh"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__no_bedroom
+msgid "Number of Bedroom"
+msgstr "Phòng ngủ"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__no_children
+msgid "Number of Children"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__res_partner__gender__other
+msgid "Other"
+msgstr "Khách"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_payment__payment_type__outbound
+msgid "Outbound Payment"
+msgstr "Chi phí"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__owner_id
+#: model:ir.model.fields,field_description:mapstar_property.field_survey_request__owner_id
+#: model:ir.model.fields.selection,name:mapstar_property.selection__res_partner__res_partner_type__owner
+msgid "Owner"
+msgstr "Người sở hữu"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_booking__state__reserve
+msgid "Owner Booking"
+msgstr "Giữ phòng"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__owner_phone
+msgid "Owner Phone"
+msgstr "Điện thoại"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__property_construction_payment__state__paid
+msgid "Paid Construction Payment"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__property_construction_payment__state__partial
+msgid "Partial Construction Payment"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_res_partner__birthday
+msgid "Partner Birthday"
+msgstr "Ngày sinh"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_res_partner__gender
+msgid "Partner Gender"
+msgstr "Giới tính"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_res_partner__res_partner_type
+#: model:ir.model.fields,field_description:mapstar_property.field_res_users__res_partner_type
+msgid "Partner Type"
+msgstr "Loại"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_payment__payment_date
+msgid "Payment Date"
+msgstr "Ngày hiệu lực"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_payment__name
+msgid "Payment Name"
+msgstr "Tên"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_payment__payment_type
+msgid "Payment Type"
+msgstr "Loại"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__property_picture_ids
+msgid "Pictures"
+msgstr "Hình ảnh"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_property_construction_line__state__prepare
+msgid "Prepare Construction"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__property_id
+msgid "Property"
+msgstr "Bất động sản"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__address
+msgid "Property Address"
+msgstr "Địa chỉ"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__property_avatar
+msgid "Property Avatar"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__category_id
+msgid "Property Category"
+msgstr "Nhóm"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__code
+msgid "Property Code"
+msgstr "Mã"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_property_construction_payment__property_construction_id
+msgid "Property Construction"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model,name:mapstar_property.model_property_construction_images
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__construction_image_ids
+msgid "Property Construction Images"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model,name:mapstar_property.model_property_construction_payment
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__construction_payment_ids
+msgid "Property Construction Payment"
+msgstr ""
+
+#. module: mapstar_property
+#: model_terms:ir.ui.view,arch_db:mapstar_property.form
+msgid "Property Contracts"
+msgstr "Danh sách hợp đồng"
+
+#. module: mapstar_property
+#: model_terms:ir.ui.view,arch_db:mapstar_property.form
+msgid "Property Description"
+msgstr "Đặc trưng"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__destination_id
+msgid "Property Destination"
+msgstr "Dự án"
+
+#. module: mapstar_property
+#: model_terms:ir.ui.view,arch_db:mapstar_property.form
+msgid "Property Details"
+msgstr "Chi tiết"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__division_id
+msgid "Property Division"
+msgstr "Phân lô"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__name
+#: model:ir.model.fields,field_description:mapstar_property.field_survey_request__property_name
+msgid "Property Name"
+msgstr "Tên"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__owner_id
+msgid "Property Owner"
+msgstr "Người sở hữu"
+
+#. module: mapstar_property
+#: model_terms:ir.ui.view,arch_db:mapstar_property.form
+msgid "Property Pictures"
+msgstr "Hình ảnh"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__rating_ids
+msgid "Property Rating"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_rating__rating
+msgid "Rating"
+msgstr "Đánh giá"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_rating__date
+msgid "Rating Date"
+msgstr "Ngày đánh giá"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_rating__description
+msgid "Rating Description"
+msgstr "Chi tiết"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__survey_request__state__received
+msgid "Received Survey"
+msgstr "Đã nhận"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_notification__send_method__schedule
+msgid "Schedule"
+msgstr "Theo lịch"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_notification__state__seen
+msgid "Seen Notification"
+msgstr "Đã xem"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_notification__send_method
+msgid "Send Method"
+msgstr "Phương thức gửi"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_notification__send_method__now
+msgid "Send Now"
+msgstr "Gửi ngay"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__survey_request__state__send
+msgid "Send Survey"
+msgstr "Đã gửi"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_notification__state__sent
+msgid "Sent Notification"
+msgstr "Đã gửi"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_common_question__sequence
+msgid "Sequence"
+msgstr "Thứ tự"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_res_partner__show_demo_property
+#: model:ir.model.fields,field_description:mapstar_property.field_res_users__show_demo_property
+msgid "Show Demo Property"
+msgstr "Hiện căn mẫu"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_contract__state__signed
+msgid "Signed Contract"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__special_service
+msgid "Special Service"
+msgstr "Tính năng đặc biệt"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_notification__icon__star
+msgid "Star Notification"
+msgstr "Sao"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__start_date
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property_construction__start_date
+msgid "Start Date"
+msgstr "Ngày bắt đầu"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_contract__state
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__state
+msgid "State"
+msgstr "Trạng thái"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__survey_request__state__survey
+msgid "Survey"
+msgstr "Khảo sát"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_survey_request__address
+msgid "Survey Address"
+msgstr "Địa chỉ"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_survey_request__location_image_ids
+msgid "Survey Property Pictures"
+msgstr "Thêm ảnh"
+
+#. module: mapstar_property
+#: model:ir.actions.act_window,name:mapstar_property.survey_request_menu_action
+#: model:ir.model,name:mapstar_property.model_survey_request
+#: model:ir.ui.menu,name:mapstar_property.survey_request_menu
+msgid "Survey Request"
+msgstr "Yêu cầu khảo sát"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_survey_request__state
+msgid "Survey State"
+msgstr "Trạng thái"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_booking__total_amount
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_payment__total_amount
+msgid "Total Amount"
+msgstr "Số tiền"
+
+#. module: mapstar_property
+#: model:ir.model.fields,field_description:mapstar_property.field_mapstar_property__total_size
+msgid "Total Size"
+msgstr "Kích thước tổng"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_contract__state__unsign
+msgid "UnSign Contract"
+msgstr ""
+
+#. module: mapstar_property
+#: model:ir.ui.menu,name:mapstar_property.mapstar_user_data_menu
+msgid "User Data"
+msgstr "Dữ liệu người dùng"
+
+#. module: mapstar_property
+#: model_terms:ir.ui.view,arch_db:mapstar_property.mapstar_notification_form
+msgid "User List"
+msgstr "Danh sách người dùng"
+
+#. module: mapstar_property
+#: model:ir.model.fields.selection,name:mapstar_property.selection__mapstar_notification__icon__warning
+msgid "Warning Notification"
+msgstr "Cảnh báo"

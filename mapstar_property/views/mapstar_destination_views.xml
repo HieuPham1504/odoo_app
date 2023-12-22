@@ -1,0 +1,47 @@
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="mapstar_destination_list">
+            <field name="name">mapstar_destination_list</field>
+            <field name="model">mapstar.destination</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="description"/>
+                    <field name="city"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="mapstar_destination_form">
+            <field name="name">mapstar_destination_form</field>
+            <field name="model">mapstar.destination</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="description"/>
+                            <field name="city"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="mapstar_destination_menu_action">
+            <field name="name">Mapstar Destination</field>
+            <field name="res_model">mapstar.destination</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem name="Mapstar Data" id="mapstar_data_menu" parent="mapstar_property.mapstar_main_menu"
+                  sequence="4"/>
+        <menuitem name="Mapstar Destination" id="mapstar_destinations_menu" parent="mapstar_property.mapstar_data_menu"
+                  sequence="1"/>
+        <menuitem name="Mapstar Destination" id="mapstar_destination_menu"
+                  parent="mapstar_property.mapstar_destinations_menu"
+                  sequence="1"
+                  action="mapstar_destination_menu_action"/>
+    </data>
+</odoo>

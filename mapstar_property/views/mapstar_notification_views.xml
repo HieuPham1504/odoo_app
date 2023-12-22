@@ -1,0 +1,75 @@
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="mapstar_notification_list">
+            <field name="name">mapstar_notification_list</field>
+            <field name="model">mapstar.notification</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="icon"/>
+                    <field name="title"/>
+                    <field name="content"/>
+                    <field name="state"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="mapstar_notification_form">
+            <field name="name">mapstar_notification_form</field>
+            <field name="model">mapstar.notification</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <field name="state" widget="statusbar" />
+                    </header>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <field name="notification_type"/>
+                            <field name="send_method"/>
+                            <field name="date_schedule" invisible="send_method == 'now'"/>
+                        </group>
+                        <group>
+                            <field name="icon"/>
+
+                        </group>
+                        <notebook>
+                            <page name="details" string="Details">
+                                <group>
+                                    <field name="title"/>
+                                    <field name="content"/>
+                                </group>
+                            </page>
+                            <page string="User List" invisible="notification_type == 'manual'">
+                                <group>
+                                    <field name="user_ids" widget="many2many_tags"/>
+                                </group>
+                            </page>
+                            <page string="Group List" invisible="notification_type != 'group'">
+                                <group>
+                                    <field name="group_ids" widget="many2many_tags"/>
+                                </group>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="mapstar_notification_menu_action">
+            <field name="name">Mapstar Notification</field>
+            <field name="res_model">mapstar.notification</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem name="Mapstar Notification" id="mapstar_notification_menu"
+                  parent="mapstar_property.mapstar_user_data_menu"
+                  action="mapstar_notification_menu_action"
+                  sequence="6"/>
+    </data>
+</odoo>

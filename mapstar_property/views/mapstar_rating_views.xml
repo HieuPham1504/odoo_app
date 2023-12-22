@@ -1,0 +1,49 @@
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="mapstar_rating_list">
+            <field name="name">mapstar_rating_list</field>
+            <field name="model">mapstar.rating</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="property_id"/>
+                    <field name="customer_name"/>
+                    <field name="rating" widget="priority" readonly="1"/>
+                    <field name="date"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="mapstar_rating_form">
+            <field name="name">mapstar_rating_form</field>
+            <field name="model">mapstar.rating</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="property_id" options="{'no_create':True,'no_edit':True}"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <field name="customer_name"/>
+                            <field name="rating" widget="priority"/>
+                            <field name="date"/>
+                            <field name="description"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="mapstar_rating_menu_action">
+            <field name="name">Mapstar Rating</field>
+            <field name="res_model">mapstar.rating</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem name="Mapstar Rating" id="mapstar_rating_menu" parent="mapstar_property.mapstar_user_data_menu"
+                  sequence="3"
+                  action="mapstar_rating_menu_action"/>
+    </data>
+</odoo>

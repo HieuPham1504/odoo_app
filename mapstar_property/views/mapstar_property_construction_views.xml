@@ -1,0 +1,91 @@
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="mapstar_property_construction_list">
+            <field name="name">mapstar_property_construction list</field>
+            <field name="model">mapstar.property.construction</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="property_id"/>
+                    <field name="owner_id"/>
+                    <field name="state"/>
+                    <field name="start_date"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="mapstar_property_construction_form">
+            <field name="name">mapstar_property_construction form</field>
+            <field name="model">mapstar.property.construction</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <field name="state" widget="statusbar" on_change="1" options="{'clickable': '1'}"/>
+                    </header>
+                    <sheet>
+                         <div class="oe_title">
+                            <h1>
+                                <field name="name"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <group name="construction-left">
+                                <field name="address"/>
+                                <field name="property_id"/>
+                                <field name="owner_id"/>
+                                <field name="description"/>
+                            </group>
+                            <group name="construction-right">
+                                <field name="start_date"/>
+                                <field name="date_schedule"/>
+                                <field name="done_date"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page name="construction-detail" string="Construction Details">
+                                <field name="construction_line_ids">
+                                    <tree editable="bottom">
+                                        <field name="name"/>
+                                        <field name="rate"/>
+                                        <field name="done_date"/>
+                                        <field name="state"/>
+                                    </tree>
+                                </field>
+
+                            </page>
+
+                            <page name="construction-images" string="Construction Images">
+                                <field name="construction_image_ids" class="o_website_sale_image_list" context="{'default_name': name}" mode="kanban" add-label="Add a Image" nolabel="1"/>
+                            </page>
+
+                            <page name="construction-payment" string="Construction Payments">
+                                <field name="construction_payment_ids" widget="section_and_note_one2many" mode="tree">
+                                    <tree string="Construction Payments" editable="bottom">
+                                        <field name="name"/>
+                                        <field name="description" optinal="hide"/>
+                                        <field name="payment_date"/>
+                                        <field name="total_amount"/>
+                                        <field name="state"/>
+                                    </tree>
+                                </field>
+
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="mapstar_property_construction_menu_action">
+            <field name="name">Mapstar Property Construction</field>
+            <field name="res_model">mapstar.property.construction</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem name="Mapstar Property Construction" id="mapstar_property_construction_menu"
+                  parent="mapstar_property.mapstar_management_menu"
+                  sequence="2"
+                  action="mapstar_property_construction_menu_action"/>
+    </data>
+</odoo>

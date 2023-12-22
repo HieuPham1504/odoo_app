@@ -1,0 +1,31 @@
+<odoo>
+    <data>
+
+        <record id="mapstar_partner_form_inherit" model="ir.ui.view">
+            <field name="name">mapstar_partner_form_inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='vat']" position="after">
+                    <field name="res_partner_type"/>
+                    <field name="show_demo_property"/>
+                    <field name="gender"/>
+                    <field name="birthday"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="mapstar_partner_menu_action">
+            <field name="name">Mapstar partner</field>
+            <field name="res_model">res.partner</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem name="Mapstar Partner" id="mapstar_partners_menu" parent="mapstar_property.mapstar_main_menu"
+                  sequence="5"/>
+        <menuitem name="Mapstar Partner" id="mapstar_partner_menu"
+                  parent="mapstar_property.mapstar_partners_menu"
+                  sequence="1"
+                  action="mapstar_partner_menu_action"/>
+    </data>
+</odoo>

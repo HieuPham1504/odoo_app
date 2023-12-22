@@ -1,0 +1,48 @@
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="mapstar_housekeeper_list">
+            <field name="name">mapstar_housekeeper_list</field>
+            <field name="model">mapstar.housekeeper</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="code"/>
+                    <field name="name"/>
+                    <field name="phone"/>
+                    <field name="type"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="mapstar_housekeeper_form">
+            <field name="name">mapstar_housekeeper_form</field>
+            <field name="model">mapstar.housekeeper</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="code"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <field name="name"/>
+                            <field name="phone"/>
+                            <field name="type"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="mapstar_housekeeper_menu_action">
+            <field name="name">Mapstar HouseKeeper</field>
+            <field name="res_model">mapstar.housekeeper</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem name="Mapstar HouseKeeper" id="mapstar_housekeeper_menu" parent="mapstar_property.mapstar_data_menu"
+                  action="mapstar_housekeeper_menu_action"
+                  sequence="4"/>
+    </data>
+</odoo>

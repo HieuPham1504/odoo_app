@@ -1,0 +1,43 @@
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="mapstar_common_question_list">
+            <field name="name">mapstar_common_question_list</field>
+            <field name="model">mapstar.common.question</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="sequence"/>
+                    <field name="question"/>
+                    <field name="answer"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="mapstar_common_question_form">
+            <field name="name">mapstar_common_question_form</field>
+            <field name="model">mapstar.common.question</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="sequence"/>
+                            <field name="question"/>
+                            <field name="answer"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="mapstar_common_question_menu_action">
+            <field name="name">Mapstar Common Question</field>
+            <field name="res_model">mapstar.common.question</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem name="Mapstar Common Question" id="mapstar_common_question_menu"
+                  parent="mapstar_property.mapstar_user_data_menu"
+                  action="mapstar_common_question_menu_action"
+                  sequence="5"/>
+    </data>
+</odoo>

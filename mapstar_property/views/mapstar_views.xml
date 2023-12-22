@@ -1,0 +1,7 @@
+<odoo>
+    <data>
+
+        <menuitem name="Mapstar" id="mapstar_main_menu"
+                  action=""/>
+    </data>
+</odoo>

@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="mapstar_property.list">
+      <field name="name">mapstar_property list</field>
+      <field name="model">mapstar_property.mapstar_property</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="mapstar_property.action_window">
+      <field name="name">mapstar_property window</field>
+      <field name="res_model">mapstar_property.mapstar_property</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="mapstar_property.action_server">
+      <field name="name">mapstar_property server</field>
+      <field name="model_id" ref="model_mapstar_property_mapstar_property"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="mapstar_property" id="mapstar_property.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="mapstar_property.menu_1" parent="mapstar_property.menu_root"/>
+    <menuitem name="Menu 2" id="mapstar_property.menu_2" parent="mapstar_property.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="mapstar_property.menu_1_list" parent="mapstar_property.menu_1"
+              action="mapstar_property.action_window"/>
+    <menuitem name="Server to list" id="mapstar_property" parent="mapstar_property.menu_2"
+              action="mapstar_property.action_server"/>
+-->
+  </data>
+</odoo>

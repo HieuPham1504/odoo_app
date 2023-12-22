@@ -1,0 +1,43 @@
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="mapstar_division_list">
+            <field name="name">mapstar_division_list</field>
+            <field name="model">mapstar.division</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="description"/>
+                    <field name="destination_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="mapstar_division_form">
+            <field name="name">mapstar_division_form</field>
+            <field name="model">mapstar.division</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="description"/>
+                            <field name="destination_id"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="mapstar_division_menu_action">
+            <field name="name">Mapstar Division</field>
+            <field name="res_model">mapstar.division</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem name="Mapstar Division" id="mapstar_division_menu"
+                  parent="mapstar_property.mapstar_destinations_menu"
+                  sequence="2"
+                  action="mapstar_division_menu_action"/>
+    </data>
+</odoo>

@@ -1,0 +1,124 @@
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="mapstar_property.list">
+            <field name="name">mapstar_property list</field>
+            <field name="model">mapstar.property</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="code"/>
+                    <field name="name"/>
+                    <field name="city"/>
+                    <field name="owner_id"/>
+                    <field name="destination_id"/>
+                    <field name="category_id"/>
+                    <field name="state"/>
+                    <field name="start_date"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="mapstar_property.form">
+            <field name="name">mapstar_property form</field>
+            <field name="model">mapstar.property</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <field name="state" widget="statusbar" on_change="1" options="{'clickable': '1'}"/>
+                    </header>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="code"/>
+                            </h1>
+                            <h2>
+                                <field name="name"/>
+                            </h2>
+
+                        </div>
+                        <group>
+                            <group name="property-left">
+                                <field name="street"/>
+                                <field name="city"/>
+                                <field name="owner_id" options="{'no_create':True}"/>
+                                <field name="owner_phone"/>
+                            </group>
+                            <group name="property-right">
+                                <field name="destination_id"/>
+                                <field name="division_id"/>
+                                <field name="category_id"/>
+                                <field name="start_date"/>
+                            </group>
+                        </group>
+
+                        <notebook>
+                            <page string="Property Details" name="property-detail">
+                                <group>
+                                    <group name="detail-left">
+                                        <field name="max_guest"/>
+                                        <field name="total_size"/>
+                                    </group>
+                                    <group name="detail-right">
+
+                                    </group>
+                                </group>
+                            </page>
+                            <page name="property-description" string="Property Description">
+                                <group>
+                                    <group>
+                                        <field name="is_sample"/>
+                                        <field name="booking_free"/>
+                                        <field name="furniture"/>
+                                    </group>
+                                    <group>
+                                        <field name="no_bedroom"/>
+                                        <field name="no_bathroom"/>
+                                        <field name="special_service"/>
+                                    </group>
+
+                                </group>
+                            </page>
+
+                            <page name="property-pictures" string="Property Pictures">
+                                <field name="property_picture_ids" widget="many2many_binary"/>
+                            </page>
+                            <page name="property-contracts" string="Property Contracts">
+                                <field name="property_contract_ids">
+                                    <tree editable="bottom">
+                                        <field name="name"/>
+                                        <field name="contract_file"/>
+                                        <field name="state"/>
+                                    </tree>
+                                </field>
+                            </page>
+
+                            <page name="housekeeper-infomation" string="Housekeeper Information">
+                                <group>
+                                    <field name="housekeeper_id" options="{'no_create':True}"/>
+                                    <field name="house_service_manager_id" options="{'no_create':True}"/>
+                                </group>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="mapstar_property_menu_action">
+            <field name="name">Mapstar Property</field>
+            <field name="res_model">mapstar.property</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+
+        <menuitem name="Mapstar Management" id="mapstar_management_menu" parent="mapstar_property.mapstar_main_menu"
+                  sequence="1"/>
+
+        <menuitem name="User Data" id="mapstar_user_data_menu" parent="mapstar_property.mapstar_main_menu"
+                  sequence="2"/>
+
+        <menuitem name="Mapstar Property" id="mapstar_property_menu" parent="mapstar_property.mapstar_management_menu"
+                  sequence="1"
+                  action="mapstar_property_menu_action"/>
+    </data>
+</odoo>

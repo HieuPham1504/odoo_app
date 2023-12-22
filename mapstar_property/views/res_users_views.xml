@@ -1,0 +1,27 @@
+<odoo>
+    <data>
+
+        <record id="mapstar_form_inherit_form" model="ir.ui.view">
+            <field name="name">mapstar_form_inherit_form</field>
+            <field name="model">res.users</field>
+            <field name="inherit_id" ref="base.view_users_simple_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='mobile']" position="after">
+                    <field name="show_demo_land"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="mapstar_partner_menu_action">
+            <field name="name">Mapstar Users</field>
+            <field name="res_model">res.users</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem name="Mapstar Users" id="mapstar_partners_menu" parent="mapstar_property.mapstar_main_menu"
+                  sequence="3"/>
+        <menuitem name="Mapstar Users" id="mapstar_partner_menu" parent="mapstar_property.mapstar_partners_menu"
+                  sequence="1"
+                  action="mapstar_partner_menu_action"/>
+    </data>
+</odoo>

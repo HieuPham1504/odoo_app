@@ -1,0 +1,42 @@
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="mapstar_feedback_list">
+            <field name="name">mapstar_feedback_list</field>
+            <field name="model">mapstar.feedback</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="title"/>
+                    <field name="property_id"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="mapstar_feedback_form">
+            <field name="name">mapstar_feedback_form</field>
+            <field name="model">mapstar.feedback</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="title"/>
+                            <field name="property_id"/>
+                            <field name="description"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="mapstar_feedback_menu_action">
+            <field name="name">Mapstar Feedback</field>
+            <field name="res_model">mapstar.feedback</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem name="Mapstar Feedback" id="mapstar_feedback_menu" parent="mapstar_property.mapstar_user_data_menu"
+                  sequence="1"
+                  action="mapstar_feedback_menu_action"/>
+    </data>
+</odoo>
