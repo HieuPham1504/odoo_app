@@ -23,6 +23,7 @@ Long description of module's purpose
     # always loaded
     'data': [
         'security/ir.model.access.csv',
+        'data/property_sequeces.xml',
         'views/views.xml',
         'views/mapstar_views.xml',
         'views/mapstar_property_views.xml',

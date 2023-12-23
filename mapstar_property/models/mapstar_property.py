@@ -41,3 +41,10 @@ class MapstarProperty(models.Model):
     division_id = fields.Many2one('mapstar.division', string='Property Division')
     rating_ids = fields.One2many('mapstar.rating', 'property_id', string='Property Rating')
 
+    @api.model
+    def create(self, vals):
+        if vals.get('code', 'New') == 'New':
+            vals['code'] = self.env['ir.sequence'].next_by_code(
+                'mapstar.property')
+        return super(MapstarProperty, self).create(vals)
+
