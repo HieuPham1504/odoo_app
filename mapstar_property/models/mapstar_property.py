@@ -56,7 +56,6 @@ class MapstarProperty(models.Model):
             'view_type': 'tree',
             'res_model': model,
             'type': 'ir.actions.act_window',
-            'nodestroy': True,
             'target': 'current',
             'domain': domain,
             'context': {
