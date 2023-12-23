@@ -10,6 +10,8 @@ access_mapstar_housekeeper,access_mapstar_housekeeper,model_mapstar_housekeeper,
 
 access_mapstar_property,access_mapstar_property,model_mapstar_property,,1,1,1,1
 
+access_mapstar_contract,access_mapstar_contract,model_mapstar_contract,,1,1,1,1
+
 access_mapstar_booking,access_mapstar_booking,model_mapstar_booking,,1,1,1,1
 
 access_mapstar_payment,access_mapstar_payment,model_mapstar_payment,,1,1,1,1
