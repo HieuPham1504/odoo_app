@@ -34,6 +34,10 @@
                             </group>
                             <group>
                                 <field name="no_adult"/>
+                                <field name="customer_name"/>
+                                <field name="customer_email"/>
+                                <field name="customer_phone"/>
+                                <field name="customer_request"/>
                             </group>
                             <group>
                                 <field name="check_in" widget="daterange" string="Checkin" class="oe_inline"

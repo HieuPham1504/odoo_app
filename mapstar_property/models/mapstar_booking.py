@@ -11,7 +11,7 @@ class MapstarBooking(models.Model):
     check_out = fields.Date(string='Check Out', required=True)
     no_adult = fields.Integer(string='Number of Adult')
     no_children = fields.Integer(string='Number of Children')
-    customer_name = fields.Char(required=True, string='Customer Name')
+    customer_name = fields.Char(string='Customer Name')
     customer_email = fields.Char(string='Customer Email')
     customer_phone = fields.Char(string='Customer Phone')
     customer_request = fields.Text(string='Customer Request')
