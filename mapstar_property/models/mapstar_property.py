@@ -48,3 +48,4 @@ class MapstarProperty(models.Model):
                 'mapstar.property')
         return super(MapstarProperty, self).create(vals)
 
+
