@@ -6,7 +6,7 @@ class MapstarProperty(models.Model):
     _description = 'Mapstar Property'
     _order = 'id desc'
 
-    code = fields.Char(string='Property Code', required=True)
+    code = fields.Char(string='Property Code')
     property_avatar = fields.Binary(string='Property Avatar')
     name = fields.Char(string='Property Name', required=True)
     street = fields.Char(string='Address')
