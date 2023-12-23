@@ -48,4 +48,41 @@ class MapstarProperty(models.Model):
                 'mapstar.property')
         return super(MapstarProperty, self).create(vals)
 
+    def action_show_model_list_view(self, model_name, model, domain):
+        return {
+            'name': model_name,
+            'view_mode': 'tree',
+            'view_id': False,
+            'view_type': 'tree',
+            'res_model': model,
+            'type': 'ir.actions.act_window',
+            'nodestroy': True,
+            'target': 'current',
+            'domain': domain,
+            'context': {
+                'default_property_id': self.id
+            }
+        }
+
+    def action_view_booking(self):
+        action = self.action_show_model_list_view("Lịch đặt phòng", 'mapstar.booking', [('property_id', '=', self.id)])
+        return action
+
+    def action_view_constructions(self):
+        action = self.action_show_model_list_view("Thi công", 'mapstar.property.construction', [('property_id', '=', self.id)])
+        return action
+
+    def action_view_ratings(self):
+        action = self.action_show_model_list_view("Đánh giá", 'mapstar.rating', [('property_id', '=', self.id)])
+        return action
+
+    def action_view_payments(self):
+        action = self.action_show_model_list_view("Thu chi", 'mapstar.payment', [('property_id', '=', self.id), ('is_net', '=', False)])
+        return action
+
+    def action_view_net_payments(self):
+        action = self.action_show_model_list_view("Doanh thu thuần", 'mapstar.payment', [('property_id', '=', self.id), ('is_net', '=', True)])
+        return action
+
+
 
