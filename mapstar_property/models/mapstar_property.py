@@ -51,7 +51,7 @@ class MapstarProperty(models.Model):
     def action_show_model_list_view(self, model_name, model, domain):
         return {
             'name': model_name,
-            'view_mode': 'tree',
+            'view_mode': 'tree,form',
             'view_id': False,
             'view_type': 'tree',
             'res_model': model,
