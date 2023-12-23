@@ -43,7 +43,7 @@ class MapstarProperty(models.Model):
 
     @api.model
     def create(self, vals):
-        if vals.get('code', 'New') == 'New':
+        if not vals.get('code'):
             vals['code'] = self.env['ir.sequence'].next_by_code(
                 'mapstar.property')
         return super(MapstarProperty, self).create(vals)
